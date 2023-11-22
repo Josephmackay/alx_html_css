@@ -259,11 +259,11 @@
     justify-content: space-between;
   }
 
-  .header-container .header-logo {
+  .header-logo {
     flex-wrap: wrap;
   }
 
-  .header-container .navber-menu {
+  .navber-menu {
     flex-wrap: wrap;
   }
 
