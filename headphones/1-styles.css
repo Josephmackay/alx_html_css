@@ -1,0 +1,38 @@
+
+.container {
+    align-self: center;
+    background-image: url(images/headphones_hero_1.jpg);
+    background-size: 1400px 800px;
+    background-position:0%
+    color: var(--color-white)
+
+    
+  }
+
+.flex-container {
+    align-self: center;
+    flex-grow: 6;
+    height: 32px;
+    width: 1000px;
+    top: 28px;
+    left: 201px;
+    display: flex;
+    justify-content:center
+
+
+}
+
+.flex-items {
+    flex-grow: 2;
+    font-size: 55px 20px;
+    color: var(--font-color) #979797
+    
+}
+
+nav .flex-items {
+    flex-grow: 2;
+}
+
+.main-part {
+    align-self: center;
+}
