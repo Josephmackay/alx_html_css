@@ -52,11 +52,16 @@ a:hover {
 
 
 .action {
+    display: block;
     background-color: #FF6565;
-    width: 162px;
+    width: fit-content;
     height: 44px;
     border-radius: 50px;
     color: white;
+    margin: 0 auto;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
 
 }
 
@@ -65,43 +70,48 @@ a:hover {
    flex-direction: column;
    align-content:  center;
    align-items: center;
+   justify-items: center;
+   width: 50%;
+   margin: 0 auto;
    
 }
 
 @media screen and (max-width: 600px) {
+    flex-wrap: .polygon;
+    flex-wrap: .foot-container;
     
 }
 
-.part2 {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .what_we_do {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
 }
 
-.sound-1 {
-    text-align: center;
-
-}
-
-.sound-2 {
-    text-align: center;
+.p-2.1 {
     display: flex;
+    flex-direction: row;
+    justify-self: center;
+    width:
     
 }
 
-.p-2.1 {
-    display: flex;
-    padding: 50px;
+.part-3 {
+    color: #ffffff;
+    background-image: url(images/headphones_hero_2.jpg);
+    width: 1400px;
+    height: 650px;
+    margin-top: 50px;
+    
 }
 
-.p-2.2 {
-    border-left: 100px;
+.p-3.2 {
+    display: flex;
+    margin-left: 150px;
+    
     
 }
 
@@ -110,8 +120,8 @@ a:hover {
     width: 986px;
     height: 190px;
     margin-top: 56px;
-    margin-left: 207px;
-    justify-content: space-between;
+    margin-left: 180px;
+    justify-content: space-around;
 
 }
 
@@ -150,4 +160,83 @@ a:hover {
     color: white;
     align-items: center;
     border-top: ;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 373px;
+    width: 335px;
+    width: 50%;
+    margin: 0 auto;
+
+  
+}
+
+.contact {
+    text-align: center;
+    
+}
+
+.foot {
+    background: #071629;
+    margin-top: 20px;
+    width: 1400px;
+    height: 249px;
+
+    
+}
+
+.foot-container {
+    display: flex;
+}
+
+
+
+.foot-2 {
+    width: 161px;
+    height: 32px;
+    top: 92px;
+    left: 200px;
+    margin-top: 92px;
+    margin-left: 200px;
+
+
+}
+
+.foot-3 {
+    top: 90px;
+    left: 700px;
+    margin-top: 90px;
+    margin-left: 700px;
+
+}
+
+.f1 {
+    display: block;
+    position: absolute;
+    width: 130px;
+    height: 30px;
+    top: 90px;
+    left: 10px;
+    margin-top: 90px;
+    margin-left: 10px;
+
+}
+
+.foot-i {
+    width: 98px;
+    height: 15px;
+    margin-top: 85px;
+    margin-left: 621px;
+    opacity: 0.35px;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+
 }
